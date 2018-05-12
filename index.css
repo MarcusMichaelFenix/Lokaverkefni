@@ -28,9 +28,11 @@ footer p {
   padding: 10px;
   flex: 1 100%;
 }
-
+.Halo{
+  font-size: 40px;
+}
 .haus {
-  background-image: url("Images/repeat.jpg");
+  background-color: #555656;
   font-weight: bolder;
   text-align: center;
   color: white;
@@ -50,6 +52,7 @@ footer p {
 
 .main {
   color: white;
+  max-width: 60%;
   background-color: #303030;
   flex: 4;
   order: 2;
@@ -140,6 +143,9 @@ li.dropdown {
 }
 .picture{
 	margin-bottom: 3em;
+}
+.info{
+  text-align: left;
 }
 div .info{
 	float: right;
